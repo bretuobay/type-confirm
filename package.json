@@ -1,0 +1,22 @@
+{
+  "name": "f-package",
+  "version": "1.0.0",
+  "description": "This is a test drive package for my personal algorithms practise ",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --reporter spec test"
+  },
+  "keywords": [
+    "ui",
+    "ux",
+    "front-end",
+    "javascript",
+    "testing",
+    "ecc"
+  ],
+  "author": "Festus Yeboah",
+  "license": "MIT",
+  "devDependencies": {
+    "mocha": "^3.0.2"
+  }
+}
