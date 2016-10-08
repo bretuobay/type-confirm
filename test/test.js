@@ -37,9 +37,9 @@ describe('confirm primitive data types', function() {
 
     describe('#Initial test for version',function(){
       it('should print infor about module', function(){
-        var version = confirm._version();
+        var version = confirm._version('1.0.0');
         console.log(version);
-        assert.equal(version, '1.0.0', 'is the current version');
+        assert.equal(version, true, 'is the current version');
       });
     });
 
